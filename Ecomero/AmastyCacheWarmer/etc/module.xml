@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+ *
+ *
+ *           a88888P8
+ *          d8'
+ * .d8888b. 88        .d8888b. 88d8b.d8b. .d8888b. .dd888b. .d8888b.
+ * 88ooood8 88        88'  `88 88'`88'`88 88ooood8 88'    ` 88'  `88
+ * 88.  ... Y8.       88.  .88 88  88  88 88.  ... 88       88.  .88
+ * `8888P'   Y88888P8 `88888P' dP  dP  dP `8888P'  dP       `88888P'
+ *
+ *           Copyright © eComero Management AB, All rights reserved.
+ *
+ *
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Ecomero_AmastyCacheWarmer" setup_version="1.0.0">
+        <sequence>
+            <module name="Amasty_Fpc"/>
+        </sequence>
+    </module>
+</config>
